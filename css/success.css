@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 7.5rem;
+	font-size: 0.32rem;	
+}
+.fh img{
+	width: 3%;
+	height: auto;
+	margin: 0.2rem;
+}
+.box{
+	text-align: center;
+}
+.wx{
+	margin-top: 10%;
+}
+.wx img{
+	width: 10%;
+	height: auto;
+}
+.wx p{
+	font-size: 0.24rem;
+}
+.shu{
+	margin-top: 20%;
+	font-style: initial;
+}
+.shu p{
+	font-size: 0.4rem;
+}
+.shu span{
+	font-size: 0.3rem;
+}
+.wc button{
+	width: 2rem;
+	height: 0.4rem;
+	background: #FFFFFF;
+	border: 0.01rem solid #00c800;
+	border-radius: 0.03rem;
+	margin-top: 10%;
+}
+.wc a{
+	text-decoration: none;
+	color: #00c800;
+}

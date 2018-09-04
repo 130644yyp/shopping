@@ -1,0 +1,238 @@
+* {
+	margin: 0;
+	padding: 0;
+	 box-sizing: border-box;
+	}
+body {
+	width: 7.5rem;
+	font-size: 0.32rem;
+	background: #f1efef;
+}
+ul {
+	list-style: none;
+}
+header {
+	height: 0.9rem; 
+	background: #f7f7f7;
+  display: flex;
+}
+
+.message {
+	 width: 1rem;
+}
+.sys {
+	 width: 1rem;
+}
+.search {
+	flex: 1;
+	color: #555;
+}
+
+
+header > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header > div img {
+	width: 38%;
+	height: auto;
+}
+
+header .sys img {
+	width: 65%;
+}
+
+.user {
+	 height: 3.37rem;
+	 background: url(../user/user_bg.jpg);
+	 background-size: contain ;
+}
+
+.user_info {
+	display: flex;
+	padding: 0.45rem 0.3rem 0rem 0.34rem;
+}
+
+.user_photo {
+ width: 1.6rem;
+}
+.user_photo img{
+ width: 100%;
+ height: auto;
+ /*border: 0.06rem solid #fff;
+ border-radius: 0.06rem;*/
+}
+
+.user_name {
+	flex: 1;
+	margin-left: 0.3rem;
+}	
+
+.user_name b {
+	 font-size: 0.4rem;
+	 line-height: 0.8rem;
+	 display: block;
+}	
+
+.user_update {
+ width: 1.6rem;
+ display: flex;
+ align-items: center;
+ text-align: right;
+
+}
+.user_data {
+	margin-top: 0.3rem;
+	background: rgba(0,0,0,0.7);
+	display: flex;
+	justify-content: space-around;
+	height: 0.95rem;
+	padding:0.26rem 0.2rem;
+	color: #fff;
+	 font-size: 0.3rem;
+}
+
+.user_data >div:nth-child(2) {
+	border-left: 0.02rem solid rgba(255,255,255,0.5);
+	border-right: 0.02rem solid rgba(255,255,255,0.5);
+	padding: 0 0.3rem;
+}
+
+/*.user_ctrl {
+	display: flex;
+}
+
+.user_ctrl > div {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.user_ctrl > div > div{
+	 width: 50%;
+}
+.user_ctrl > div > div img{
+	 width: 100%;
+	 height: auto;
+}
+
+.user_other {
+	
+}*/
+main{
+	margin-bottom: 1.2rem;
+}
+
+.dingdan{
+	display: flex;
+	background: #FFFFFF;
+	line-height: 0.84rem;
+	margin-top: 0.2rem;
+}
+.dingdan p{
+	font-size: 0.26rem;
+	margin-left: 0.2rem;
+}
+.dingdan span{
+	font-size: 0.18rem;
+	margin-left: 60%;
+	margin-right: 0.1rem;
+	color: #afafaf;
+}
+.dingdan img{
+	width: 4%;
+	height: 4%;
+	margin-top: 0.26rem;
+}
+.daifukuan{
+	margin-top: 0.02rem;
+	background: #FFFFFF;
+	height: 1.5rem;
+}
+.dai_tui{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 0.3rem;
+	margin-right: 0.3rem;
+	
+}
+
+.dai_tui >div img{
+	width: 70%;
+	height: auto;
+	margin-top: 0.2rem;
+}
+.dai_tui >div p{
+	font-size: 0.2rem;
+}
+
+
+.ccxzs{
+	display: flex;
+	background: #FFFFFF;
+	line-height: 0.84rem;
+	margin-top: 0.2rem;
+}
+.ccxzs p{
+	font-size: 0.26rem;
+	margin-left: 0.2rem;
+}
+.cc{
+	background: #FFFFFF;
+	height: 4.5rem;
+}
+.xzs{
+	display: flex;
+	flex-wrap: wrap;
+}
+.xzs >div{
+	margin-top: 0.2rem;
+	padding-left: 0.45rem;
+	padding-right: 0.45rem;
+	text-align: center;
+	justify-content: space-between;
+	width: 25%;
+	
+}
+.xzs >div img{
+	width: 60%;
+	height: auto;
+	margin-top: 0.2rem;
+}
+.xzs >div p{
+	font-size: 0.2rem;
+}
+
+
+
+
+footer p:hover{
+	color: #FF3333;
+}
+footer {
+	background: #FFFFFF;
+	height: 1rem;
+	border-top: 1px solid #eee;
+	display: flex;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+}
+footer a {
+	width: 0.8rem;
+	font-size: 0.24rem;
+	color: #080808;
+	text-align: center;
+	text-decoration: none;
+	line-height: 0.24rem;
+}
+
+footer a img {
+	width:70%;
+	height:auto;
+}

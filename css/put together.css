@@ -1,0 +1,176 @@
+*{	
+	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+	
+}
+body{
+	width: 7.5rem;
+	font-size: 0.32rem;
+	background: #f1efef;
+} 
+header{
+	height: 0.9rem;
+	background: #ffffff;
+	text-align: center;
+	line-height: 0.9rem;
+}
+.jingxuan{
+	height: 0.7rem;
+	background: #fb486d;
+	display: flex;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.jingxuan p{
+	margin: 0.1rem 0.35rem;
+	color: #dddddd;
+}
+#jx{
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.qinag img{
+	width: 100%;
+	height: auto;
+}
+
+nav{
+	background: #FFFFFF;
+	width: 100%;
+	height: 1.6rem;
+
+}
+nav >div{
+	display: inline-block;
+	margin-left: 0.45rem;
+	margin-right: 0.45rem;
+	margin-top: 0.1rem;
+}
+nav img{
+	width: 0.8rem;
+	height: auto;
+}
+nav p{
+	font-size: 0.22rem;
+	
+}
+
+.jrsx{
+	height: 0.7rem;
+	background: #FFFFFF;
+	display: flex;
+	margin-top: 0.2rem;
+}
+.jrsx p{
+	font-size: 0.28rem;
+	color: #fb486d;
+	line-height: 0.7rem;
+	margin-left: 0.4rem;
+}
+.jrsx span{
+	font-size: 0.2rem;
+	line-height: 0.7rem;
+	margin-left: 0.2rem;
+}
+
+.pindan{
+	margin-bottom: 1rem;
+}
+.qu{
+	background: #FFFFFF;
+	height: 3.04rem;
+	display: flex;
+	font-size: 0.2rem;	
+	border-bottom: 0.02rem solid #ded9d9;
+	
+}
+
+.qu h1 img{
+	width: 55%;
+	height: auto;
+	margin: 0.2rem;
+}
+.qu h2{
+	margin-top: 0.4rem;
+	margin-left: -1rem;
+}
+.qu h2 p{
+	font-size: 0.2rem;
+	width: 3rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	
+}
+.qu h2 span{
+	font-size: 0.18rem;
+	color: #b0adad;
+}
+.qu h2 img{
+	width: 10%;
+	height: auto;
+}
+.qu h2 b{
+	font-size: 0.18rem;
+	color: #ff4977;
+}
+.qu h2 s{
+	color: #b0adad;
+	font-size: 0.2rem;
+	font-weight: normal;
+}
+.qu h2 em{
+	font-size: 0.14rem;
+	color: #ff4977;
+	font-style: normal;
+}
+
+.qu h2 a{
+	font-size: 0.2rem;
+	color: #ff4977;
+}
+.qu h3{
+	
+	width: 0.88rem;
+	height: 0.36rem;
+	background: #f9144e;
+	color: #FFFFFF;
+	font-size: 0.16rem;
+	border-radius: 0.07rem;
+	text-align: center;
+	line-height: 0.36rem;
+	margin-top: 2rem;
+	margin-right: 0.5rem;
+}
+
+footer p:hover{
+	color: #FF3333;
+}
+footer {
+	background: #FFFFFF;
+	height: 1rem;
+	border-top: 1px solid #eee;
+	display: flex;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+}
+footer a {
+	width: 0.8rem;
+	font-size: 0.24rem;
+	color: #080808;
+	text-align: center;
+	text-decoration: none;
+	line-height: 0.24rem;
+}
+
+footer a img {
+	width:70%;
+	height:auto;
+}
+

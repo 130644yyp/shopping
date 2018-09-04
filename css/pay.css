@@ -1,0 +1,286 @@
+* { 
+	margin: 0; 
+	padding: 0;
+}
+body {
+	width: 7.5rem;
+	font-size: 0.32rem;
+	background: #F4F4F4;
+}
+
+header { 
+	display:flex;
+ 	background: #FFFFFF;
+    height: 0.9rem;
+    border-bottom: #DED9D9 solid 0.01rem;
+ }
+
+.message {
+	width: 1rem;
+}
+
+.search {
+	flex: 1;
+}
+
+.search h2 {
+	font-weight: normal;
+	font-size: 0.32rem;
+}
+
+header > div { 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header > div img {
+	width: 20%;
+	height: auto;
+}
+
+
+.shouhuo{
+	background: #FFFFFF;
+	font-size: 0.18rem;
+	height: 1.14rem;
+}
+.shouhuo .ren{
+	padding-top: 0.2rem;
+	margin-left: 0.2rem;
+}
+.shouhuo .dizhi{
+	padding-top: 0.1rem;
+	margin-left: 0.2rem;
+}
+.shouhuo .dizhi span{
+	color: #9D9D9D;
+	
+}
+.shouhuo .dizhi a img{
+	float: right;
+	margin-right: 0.2rem;
+}
+.zffs{
+	margin-top: 0.2rem;
+	background: #FFFFFF;
+}
+.zfb{
+	display: flex;
+	border-bottom: #DDDDDD solid 0.01rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	margin: 0 0.2rem;
+}
+.zfb a img{
+	width: 70%;
+	height: auto;
+}
+.zfb p{
+	width: 13%;
+	font-size: 0.18rem;
+	margin-left: 0.1rem;
+}
+.zfb b{
+	width: 70%;
+}
+.zfb b img{
+	margin-left: 0.2rem;
+	width: 30%;
+	height: auto;
+}
+.zfb em{
+	margin-left: 5%;
+	margin-top: 1%;
+
+}
+
+.zfb b{
+	font-size: 0.1rem;
+	font-weight: normal;
+	color: #AEADAD;
+}
+
+
+main{
+	margin-bottom: 2rem;
+	background: #FFFFFF;
+}
+.name{
+	display: flex;
+	background: #F1EFEF;
+	margin-top: 0.2rem;
+}
+.name a img{
+	width: 40%;
+	height: auto;
+	margin-left: 0.2rem;
+	margin-top: 0.2rem;
+}
+.name h2{
+	margin-left: 0.1rem;
+	line-height: 0.6rem;
+	font-weight: normal;
+	font-size: 0.2rem;
+}
+.shop_content{
+	background: #FFFFFF;
+}
+.shop_content > div {
+	display: flex;
+	padding: 0.3rem 0;
+	border-bottom: 0.01rem solid #ddd;
+	margin: 0 0.2rem;
+}
+.shop_content .shop_photo {
+	flex: 16;
+	margin-left: 0.1rem;
+	margin-right: 0.3rem;
+}
+.shop_content .shop_photo img{
+	width: 100%;
+	height: auto;
+	border: 0.02rem solid #ddd;
+}
+
+.shop_content .shop_info {
+	flex: 46;
+}
+
+.shop_info h3 {
+	font-size: 0.18rem;
+	font-weight: normal;
+	width: 50%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	
+}
+.shop_info p{
+	font-size: 0.16rem;
+	margin-top: 0.1rem;
+	color: #9D9D9D;
+}
+.shop_price {
+	width: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-left: 0.2rem;
+	margin-top: 0.8rem;
+}
+
+.shop_info em{
+	font-style: normal;
+	color: #FC0303;
+	font-size: 0.2rem;
+	margin-top:1rem;
+}
+.shop_info b{
+	font-weight: normal;
+	font-size: 0.16rem;
+	color: #ADADAD;
+	font-size: 0.2rem;
+}
+.psfs{
+	border-bottom: #DDDDDD solid 0.01rem;
+	height: 0.6rem;
+	font-size: 0.16rem;
+	display: flex;
+	line-height: 0.6rem;
+	margin: 0 0.2rem;
+}
+.psfs span{
+	color: #FC0303;
+	margin-left: 80%;
+}
+.shouhou{
+	height: 0.6rem;
+	font-size: 0.16rem;
+	display: flex;
+	line-height: 0.6rem;
+	margin: 0 0.2rem;
+}
+.shouhou span{
+	font-size: 0.12rem;
+	color: #D4D4D4;
+	margin-left: 32%;
+}
+.ly input{
+	width: 90%;
+	height: 0.5rem;
+	background: #DDDDDD;
+	border: none;
+	color: #ADADAD;
+	border-radius: 0.06rem;
+	padding-left: 0.2rem;
+	font-size: 0.16rem;
+	margin-bottom: 0.2rem;
+	margin-left: 0.2rem;
+}
+.gj{
+	display: flex;
+	margin-left: 67%;
+	font-size: 0.18rem;
+	padding: 0.2rem 0;
+}
+.gj b{
+	margin-left: 0.1rem;
+	font-weight: normal;
+	
+}
+.gj span{
+	font-size: 0.14rem;
+	margin-left: 0.2rem;
+	color: #FC0303;
+	margin-top: 0.04rem;
+}
+.aqbz{
+	background: #F4F4F4;
+	padding-top: 0.2rem;
+}
+.aqbz p{
+	margin-left: 0.2rem;
+	font-size: 0.12rem;
+}
+
+.aqbz span{
+	color: #FC0303;
+}
+
+
+.jiesuan {
+	height: 1rem;
+	border-top: 0.02rem solid #ddd;
+	margin-top: 0.34rem;
+	background: #FFFFFF;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 0 0.3rem;
+	display: flex;
+	align-items: center;
+}
+
+.jiesuan > div p{
+	font-size: 0.2rem;
+}
+.jiesuan > div span{
+	font-size: 0.16rem;
+	font-style: normal;
+	color: #f33;
+}
+.jiesuan > button {
+	width: 2rem;
+	border: none;
+	background: #FC0303;
+	color: #fff;
+	height: 100%;
+	margin-left: 56%;
+
+}
+.jiesuan > button a{
+	text-decoration: none;
+	color: #FFFFFF;
+}

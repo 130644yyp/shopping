@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html style="font-size: 100px">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/pay.css"/>
+	</head>
+	<body>
+	
+		<header>
+			<div class="message" onclick="history.back()"><img src="images/img/denglu/denglu (18).png"/></div>
+			<div class="search"><h2>订单确认</h2></div>
+		</header>
+		<div class="shouhuo">
+			<div class="ren">
+				收货人 : 人 13264579801
+			</div>
+			<div class="dizhi">
+				<p>
+					收货地址:
+					<span>河南省 信阳市 平桥区 信阳职业技术学院</span>
+					<a>
+						<img src="images/img/denglu/denglu (21).png"/>
+					</a>
+				</p>
+			</div>
+		</div>
+		<div class="zffs">
+			<div class="zfb">
+				<a><img src="images/img/denglu/denglu (5).png"/></a>
+				<p>微信支付</p>
+				<b><img src="images/img/denglu/denglu (4).png"/></b>
+				<!--<input type="checkbox" checked />-->
+				<em><img src="images/img/denglu/denglu (23).png"/></em>
+			</div>
+			<div class="zfb">
+				<a><img src="images/img/denglu/denglu (6).png"/></a>
+				<p>支付宝支付</p>
+				<b><img src="images/img/denglu/denglu (7).png"/></b>
+				
+			</div>
+			<div class="zfb">
+				<a><img src="images/img/denglu/denglu (8).png"/></a>
+				<p>花呗支付</p>
+				<b> </b>
+				
+			</div>
+			<div class="zfb">
+				<a><img src="images/img/denglu/denglu (9).png"/></a>
+				<p>QQ支付</p>
+				<b> </b>
+				
+			</div>
+			<div class="zfb">
+				<a><img src="images/img/denglu/denglu (10).png"/></a>
+				<p>朋友代付</p>
+				<b> </b>
+				
+			</div>
+		</div>
+	<div id="box">
+		<main>
+			<div v-for="item in obj">
+				<div class="name">
+					<a><img src="images/img/details/details (54).png"/></a>
+					<h2>雅瑞缇旗舰店</h2>
+				</div>
+				<div class="shop_content">
+					<div>
+						
+						<div class="shop_photo">
+							<img :src="item.img"/>
+						</div>
+						<div class="shop_info">
+							<h3>{{item.title}}</h3>
+							<p>尺码：M;颜色：湖蓝</p>
+							<em>￥{{item.price}}</em>	
+							<b>×1</b>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="psfs">
+				<p>配送方式</p>
+				<span>包邮</span>
+			</div>
+			<div class="shouhou">
+				<p>售后无忧</p>
+				<span>30元以上商品退货成功，每订单可获6元红包一个</span>
+			</div>
+			<div class="ly">
+				<input type="text" placeholder="给卖家留言:" />
+			</div>
+			<div class="gj">
+				<p>共计1件商品</p>
+				<b>小计:</b>
+				<span>￥ 57.00</span>
+			</div>
+			<div class="aqbz">
+				<p>*下单则表示同意 <span>《楚楚街网络服务使用协议》</span></p>
+				<p>*该商品支持担保交易，请放心购买</p>
+				<p>详情请查询 <span>《楚楚街官方购物安全保障》</span></p>
+			</div>
+		</main>		
+			
+		<div class="jiesuan">
+			<div>
+				<p>合计:<span>￥57.00</span></p>
+			</div>
+			<button @click="next()"><!--<a href="success.html">-->去支付<!--</a>--></button>
+		</div>
+	</div>	
+		<script src="user/js/public.js" type="text/javascript" charset="utf-8"></script>
+		<script src="vue/dist/vue.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var app = new Vue({
+				el:"#box",
+				data:{
+					obj:[],
+					num:1
+				},
+				methods:{
+					next(){
+						location = "success.html"
+					},	
+				},
+				created(){
+					var obj = localStorage.getItem("pay");
+					console.log(JSON.parse(obj));
+					this.obj = JSON.parse(obj)
+				},
+//				computed:{
+//					shu(){
+//						var res = 0;
+//						for(var i=0;i<this.obj.length;i++){
+//							res +=this.obj[i].price
+//							
+//						}
+//						localStorage.getItem("jiage",res)
+//						return res;
+//					}
+//				}
+			})
+		</script>
+		
+		
+	</body>
+	
+</html>
